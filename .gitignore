@@ -1,0 +1,26 @@
+# Python virtual environments & cache
+backend/venv/
+backend/.pytest_cache/
+backend/__pycache__/
+backend/**/__pycache__/
+*.pyc
+*.pyo
+
+# Local databases & run data
+backend/research_agent.db
+backend/research_agent.db-journal
+
+# Environment variables & secrets
+.env
+backend/.env
+frontend/.env
+*.local
+
+# Node & Frontend build output
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Temporary OS files
+.DS_Store
+Thumbs.db
